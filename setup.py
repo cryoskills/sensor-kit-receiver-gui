@@ -14,6 +14,9 @@ setup(
     entry_points = {
         "gui_scripts" : [
             "cryoskills-receiver = cryoskills:launch_gui_instance"
+        ],
+        "console_scripts" : [
+            "cryoskills-receiver-gui = cryoskills:launch_gui_instance"
         ]
     },
     install_requires = [
