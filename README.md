@@ -6,3 +6,9 @@ The code has been tested with Python 3.12.0.
 ## Installation
 We recommend using a Python virtual environment when installing the receiver GUI software with `pip`. 
 These instructions assume that you have Python installed on your PC. 
+
+Try...
+
+```
+pip install git+https://github.com/cryoskills/sensor-kit-receiver-gui
+```
