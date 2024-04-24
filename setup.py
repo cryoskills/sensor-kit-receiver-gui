@@ -1,20 +1,5 @@
 from setuptools import setup, find_packages
 
-install_requires=[
-    'contourpy==1.2.1',
-    'cycler==0.12.1',
-    'fonttools==4.50.0',
-    'kiwisolver==1.4.5',
-    'matplotlib==3.8.4',
-    'numpy==1.26.4',
-    'packaging==24.0',
-    'pillow==10.3.0',
-    'pyparsing==3.1.2',
-    'pyserial==3.5',
-    'python-dateutil==2.9.0.post0',
-    'six==1.16.0'
-]
-
 setup(
     name="cryoskills",
     # Configure setuptools to look for packages in src/
@@ -31,5 +16,18 @@ setup(
             "cryoskills-receiver = cryoskills:launch_gui_instance"
         ]
     },
-    install_requires = install_requires
+    install_requires = [
+        'contourpy>=1.2',
+        'cycler>=0.12.1',
+        'fonttools>=4.50',
+        'kiwisolver>=1.4',
+        'matplotlib>=3.8',
+        'numpy>=1.26',
+        'packaging>=24.0',
+        'pillow>=10.3',
+        'pyparsing>=3.1',
+        'pyserial>=3.5',
+        'python-dateutil>=2.9',
+        'six>=1.16'
+    ]
 )
