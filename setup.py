@@ -28,7 +28,7 @@ setup(
     author_email='hawkinsj22@cardiff.ac.uk',
     entry_points = {
         "gui_scripts" : [
-            "cryoskills-receiver = cryoskills:launch_new_receiver_gui"
+            "cryoskills-receiver = cryoskills:launch_gui_instance"
         ]
     },
     install_requires = install_requires
