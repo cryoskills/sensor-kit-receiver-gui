@@ -406,9 +406,10 @@ def parse_cmd_arguments():
     # Create default log filename with current datetime stamp
     # TODO: probably better to move this logic elsewhere, but this will do for now
     now = datetime.datetime.now()
+    timestamp = now.strftime("%Y%m%d_%H%M%S")
     parser.add_argument(
         '--filename', type=str, required=False, 
-        default=f"cryoskills_log_{now.strftime("%Y%m%d_%H%M%S")}.csv",
+        default=f"cryoskills_log_{timestamp}.csv",
         help="filename to write decoded packets to, defaults to a timestamped CSV file."
     )
 
