@@ -24,7 +24,7 @@ setup(
         'cycler>=0.12.1',
         'fonttools>=4.50',
         'kiwisolver>=1.4',
-        'matplotlib>=3.8',
+        'matplotlib>=3.7',
         'numpy>=1.26',
         'packaging>=24.0',
         'pillow>=10.3',
