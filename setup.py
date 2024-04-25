@@ -7,7 +7,7 @@ setup(
         "" : "src"
     },
     include_package_data=True,
-    version='0.0.1',
+    version='0.0.2',
     description='TkInter GUI and CSV logger for receiving CryoSkills packets',
     author='Jono Hawkins',
     author_email='hawkinsj22@cardiff.ac.uk',
