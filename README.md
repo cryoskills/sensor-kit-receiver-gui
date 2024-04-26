@@ -1,5 +1,5 @@
-# CryoSkills Datalogger - Receiver
-Software to run on a PC to receiver and log CryoSkills Sensor Kit LoRa packets
+# CryoSkills Datalogger - Receiver (Software)
+Graphical user interface for the CryoSkills datalogger receiver to log and display CryoSkills Sensor Kit LoRa packets in real-time.
 
 The code has been tested with Python 3.12.0.
 
